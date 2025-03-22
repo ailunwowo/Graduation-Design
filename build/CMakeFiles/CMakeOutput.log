@@ -1,0 +1,394 @@
+The target system is: Linux -  - risc-v
+The host system is: Linux - 6.8.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35e77/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35e77.dir/build.make CMakeFiles/cmTC_35e77.dir/build
+gmake[1]: Entering directory '/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o
+/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-gcc.br_real
+Target: riscv64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) 
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_35e77.dir/'
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/cc1 -quiet -v -isysroot /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_35e77.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicsr_zifencei_zba_zbb -version -fstack-protector-strong -fPIE -o /tmp/cc8oInf6.s
+GNU C17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 0f9f4a7b6a5e5854b6013cf7ed44cdd7
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_35e77.dir/'
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/as -v --traditional-format -fpic -march=rv64imafdc_zicsr_zifencei_zba_zbb -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o /tmp/cc8oInf6.s
+GNU assembler version 2.39 (riscv64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.39
+COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_35e77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e77.dir/link.txt --verbose=1
+/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-gcc  -v CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o -o cmTC_35e77 
+Using built-in specs.
+COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-gcc.br_real
+COLLECT_LTO_WRAPPER=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper
+Target: riscv64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) 
+COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_35e77' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'cmTC_35e77.'
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/collect2 -plugin /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2UUISt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -pie -o cmTC_35e77 /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0 -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_35e77' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'cmTC_35e77.'
+gmake[1]: Leaving directory '/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-buildroot-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35e77/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35e77.dir/build.make CMakeFiles/cmTC_35e77.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-gcc   -v -o CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-gcc.br_real]
+  ignore line: [Target: riscv64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_35e77.dir/']
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/cc1 -quiet -v -isysroot /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_35e77.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicsr_zifencei_zba_zbb -version -fstack-protector-strong -fPIE -o /tmp/cc8oInf6.s]
+  ignore line: [GNU C17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 0f9f4a7b6a5e5854b6013cf7ed44cdd7]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_35e77.dir/']
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/as -v --traditional-format -fpic -march=rv64imafdc_zicsr_zifencei_zba_zbb -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o /tmp/cc8oInf6.s]
+  ignore line: [GNU assembler version 2.39 (riscv64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o' '-c' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_35e77]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e77.dir/link.txt --verbose=1]
+  ignore line: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-gcc  -v CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o -o cmTC_35e77 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-gcc.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) ]
+  ignore line: [COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_35e77' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'cmTC_35e77.']
+  link line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/collect2 -plugin /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc2UUISt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -pie -o cmTC_35e77 /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0 -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc2UUISt.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-riscv64-lp64d.so.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_35e77] ==> ignore
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_35e77.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/lib]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o]
+  implicit dirs: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/lib;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d54cb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d54cb.dir/build.make CMakeFiles/cmTC_d54cb.dir/build
+gmake[1]: Entering directory '/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o
+/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-g++   -v -o CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-g++.br_real
+Target: riscv64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) 
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_d54cb.dir/'
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/cc1plus -quiet -v -isysroot /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d54cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicsr_zifencei_zba_zbb -version -fstack-protector-strong -fPIE -o /tmp/ccqD7za4.s
+GNU C++17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/riscv64-buildroot-linux-gnu
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/backward
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include
+End of search list.
+GNU C++17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 6d11dc278ded1a4d63466c88a2adbf59
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_d54cb.dir/'
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/as -v --traditional-format -fpic -march=rv64imafdc_zicsr_zifencei_zba_zbb -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqD7za4.s
+GNU assembler version 2.39 (riscv64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.39
+COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_d54cb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d54cb.dir/link.txt --verbose=1
+/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-g++  -v CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d54cb 
+Using built-in specs.
+COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-g++.br_real
+COLLECT_LTO_WRAPPER=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper
+Target: riscv64-buildroot-linux-gnu
+Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) 
+COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/
+LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_d54cb' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'cmTC_d54cb.'
+ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/collect2 -plugin /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFQlSMe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -pie -o cmTC_d54cb /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0 -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_d54cb' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'cmTC_d54cb.'
+gmake[1]: Leaving directory '/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/riscv64-buildroot-linux-gnu]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/backward]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include]
+    add: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include/c++/12.2.0]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/riscv64-buildroot-linux-gnu] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include/c++/12.2.0/riscv64-buildroot-linux-gnu]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/backward] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include/c++/12.2.0/backward]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include]
+  collapse include dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include/c++/12.2.0;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include/c++/12.2.0/riscv64-buildroot-linux-gnu;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include/c++/12.2.0/backward;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/include;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(riscv64-buildroot-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d54cb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d54cb.dir/build.make CMakeFiles/cmTC_d54cb.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/alen/VisonFive2_SDK/lvgl_v9_demo/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-g++   -v -o CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-g++.br_real]
+  ignore line: [Target: riscv64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_d54cb.dir/']
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/cc1plus -quiet -v -isysroot /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d54cb.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -march=rv64imafdc_zicsr_zifencei_zba_zbb -version -fstack-protector-strong -fPIE -o /tmp/ccqD7za4.s]
+  ignore line: [GNU C++17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/riscv64-buildroot-linux-gnu]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include/c++/12.2.0/backward]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/include-fixed]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/include]
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Buildroot JH7110_VF2_515_v5.13.1-dirty) version 12.2.0 (riscv64-buildroot-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 6d11dc278ded1a4d63466c88a2adbf59]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_d54cb.dir/']
+  ignore line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/as -v --traditional-format -fpic -march=rv64imafdc_zicsr_zifencei_zba_zbb -march=rv64imafdc_zicsr_zifencei_zba_zbb -mabi=lp64d -misa-spec=20191213 -o CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccqD7za4.s]
+  ignore line: [GNU assembler version 2.39 (riscv64-buildroot-linux-gnu) using BFD version (GNU Binutils) 2.39]
+  ignore line: [COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_d54cb]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d54cb.dir/link.txt --verbose=1]
+  ignore line: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host//bin/riscv64-buildroot-linux-gnu-g++  -v CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d54cb ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/bin/riscv64-buildroot-linux-gnu-g++.br_real]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper]
+  ignore line: [Target: riscv64-buildroot-linux-gnu]
+  ignore line: [Configured with: ./configure --prefix=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --sysconfdir=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/etc --enable-static --target=riscv64-buildroot-linux-gnu --with-sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --enable-__cxa_atexit --with-gnu-ld --disable-libssp --disable-multilib --disable-decimal-float --with-gmp=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpc=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-mpfr=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host --with-pkgversion='Buildroot JH7110_VF2_515_v5.13.1-dirty' --with-bugurl=http://bugs.buildroot.net/ --without-zstd --disable-libquadmath --disable-libquadmath-support --enable-tls --enable-plugins --enable-lto --enable-threads --without-isl --without-cloog --with-arch=rv64imafdc_zicsr_zifencei_zba_zbb --with-abi=lp64d --enable-languages=c,c++,fortran --with-build-time-tools=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/bin --enable-shared --enable-libgomp]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.0 (Buildroot JH7110_VF2_515_v5.13.1-dirty) ]
+  ignore line: [COMPILER_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib/:/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot' '-fstack-protector-strong' '-fPIE' '-pie' '-v' '-o' 'cmTC_d54cb' '-shared-libgcc' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-mabi=lp64d' '-misa-spec=20191213' '-march=rv64imafdc_zicsr_zifencei_zba_zbb' '-dumpdir' 'cmTC_d54cb.']
+  link line: [ /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/collect2 -plugin /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFQlSMe.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot --eh-frame-hdr -melf64lriscv -dynamic-linker /lib/ld-linux-riscv64-lp64d.so.1 -pie -o cmTC_d54cb /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0 -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib -L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib -z now -z relro CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o /home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/libexec/gcc/riscv64-buildroot-linux-gnu/12.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFQlSMe.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-melf64lriscv] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-riscv64-lp64d.so.1] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d54cb] ==> ignore
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib]
+    arg [-L/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib] ==> dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib]
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [CMakeFiles/cmTC_d54cb.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o]
+    arg [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o] ==> obj [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/../../../../riscv64-buildroot-linux-gnu/lib] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/lib]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib]
+  collapse library dir [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib] ==> [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crti.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtbeginS.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtendS.o;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0/crtn.o]
+  implicit dirs: [/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/lib/gcc/riscv64-buildroot-linux-gnu/12.2.0;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/lib;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/lib;/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/riscv64-buildroot-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+riscv64-buildroot-linux-gnu-gcc.br_real (Buildroot JH7110_VF2_515_v5.13.1-dirty) 12.2.0
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

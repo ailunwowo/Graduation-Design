@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "lv_demos.h": "c",
+        "lv_demo_benchmark.h": "c",
+        "unistd.h": "c",
+        "wayland_xdg_shell.h": "c"
+    }
+}
