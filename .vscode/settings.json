@@ -3,6 +3,11 @@
         "lv_demos.h": "c",
         "lv_demo_benchmark.h": "c",
         "unistd.h": "c",
-        "wayland_xdg_shell.h": "c"
+        "wayland_xdg_shell.h": "c",
+        "lvgl.h": "c",
+        "lv_fs.h": "c",
+        "lv_fs_private.h": "c",
+        "errno.h": "c",
+        "lv_demo_widgets.h": "c"
     }
 }
