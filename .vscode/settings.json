@@ -8,6 +8,27 @@
         "lv_fs.h": "c",
         "lv_fs_private.h": "c",
         "errno.h": "c",
-        "lv_demo_widgets.h": "c"
+        "lv_demo_widgets.h": "c",
+        "limits.h": "c",
+        "types.h": "c",
+        "gui_guider.h": "c",
+        "custom.h": "c",
+        "string.h": "c",
+        "guider.h": "c",
+        "stdlib.h": "c",
+        "dirent.h": "c",
+        "events_init.h": "c",
+        "sensor_device.h": "c",
+        "lv_fsdrv.h": "c",
+        "mqttclient.h": "c",
+        "config.h": "c",
+        "ssl.h": "c",
+        "net_sockets.h": "c",
+        "control_device.h": "c",
+        "stdio.h": "c",
+        "atomic": "c",
+        "fstream": "c",
+        "sstream": "c",
+        "regex": "c"
     }
 }

@@ -1,0 +1,81 @@
+LVGL 编译时环境变量设置
+export TOOLCHAIN_ROOT=/home/alen/VisonFive2_SDK/VisionFive2/work/buildroot_rootfs/host/
+
+export PATH=$TOOLCHAIN_ROOT/bin:$PATH
+cmake -DCMAKE_C_COMPILER=$TOOLCHAIN_ROOT/bin/riscv64-buildroot-linux-gnu-gcc\
+      -DCMAKE_CXX_COMPILER=$TOOLCHAIN_ROOT/bin/riscv64-buildroot-linux-gnu-g++\
+      -DCMAKE_SYSTEM_NAME=Linux \
+      -DCMAKE_SYSTEM_PROCESSOR=risc-v \
+      ..
+cmake -DCMAKE_C_COMPILER=gcc\
+      -DCMAKE_CXX_COMPILER=g++\
+      -DCMAKE_SYSTEM_NAME=Linux \
+      -DCMAKE_SYSTEM_PROCESSOR=x86_64 \
+      ..
+
+# printenv 
+USER=root
+SHLVL=1
+HOME=/root
+OLDPWD=/
+PS1=# 
+WAYLAND_DISPLAY=wayland-1   //wayland 映射
+LOGNAME=root
+TERM=vt100
+PATH=/bin:/sbin:/usr/bin:/usr/sbin
+XDG_RUNTIME_DIR=/root
+SHELL=/bin/sh
+PWD=/root
+EDITOR=/bin/vi
+# 
+
+VisionFive2
+
+tftpboot ${loadaddr} image.fit;
+bootm start ${loadaddr};bootm loados ${loadaddr};run chipa_set_linux;run cpu_vol_set; booti ${kernel_addr_r} ${ramdisk_addr_r}:${filesize} ${fdt_addr_r};
+
+
+tftpboot ${fdt_addr_r} jh7110-starfive-visionfive-2-v1.3b.dtb;
+tftpboot ${kernel_addr_r} Image.gz;
+tftpboot ${ramdisk_addr_r} initramfs.cpio.gz;
+run chipa_set_linux;run cpu_vol_set;
+booti ${kernel_addr_r} ${ramdisk_addr_r}:${filesize} ${fdt_addr_r}
+
+setenv bootargs "console=ttyS0,115200 debug rootwait earlycon=sbi root=/dev/mmcblk1p4 video=HDMI-A-1：720x480@60.00"
+bootargs=console=tty1 console=ttyS0,115200 debug rootwait earlycon=sbi root=/dev/mmcblk1p4
+
+
+tftpboot ${fdt_addr_r} jh7110-starfive-visionfive-2-v1.3b.dtb; tftpboot ${kernel_addr_r} Image.gz; tftpboot ${ramdisk_addr_r} initramfs.cpio.gz; run chipa_set_linux; run cpu_vol_set; booti ${kernel_addr_r} ${ramdisk_addr_r}:${filesize} ${fdt_addr_r}
+
+//编译以及烧录步骤
+make -j$(nproc)
+make buildroot_rootfs -j$(nproc)
+make img
+
+sudo dd if=work/sdcard.img of=/dev/sdX bs=4096
+sync
+
+sudo growpart /dev/sdb 4      # 扩展分区4到最大容量
+sudo e2fsck -f /dev/sdb4     # 检查分区
+sudo resize2fs /dev/sdb4      # 调整文件系统大小
+sudo fsck.ext4 /dev/sdb4      # 再次检查
+
+cat /etc/inittab
+sole::respawn:/sbin/getty -L  console 0 vt100 # GENERIC_SERIAL
+
+echo 1 >/sys/class/vtconsole/vtcon1/bind  //开关屏幕终端
+
+media-ctl -p -d /dev/media0	//查看摄像头信息
+v4l2-ctl --device=/dev/video4 --list-formats-ext  //查看摄像头支持的分辨率
+
+v4l2-ctl --device=/dev/video4 --set-fmt-video=width=640,height=480,pixelformat=MJPG --stream-mmap --stream-to=video100.yuv --stream-count=300
+v4l2-ctl --device=/dev/video4 --set-fmt-video=width=640,height=480,pixelformat=MJPG --stream-mmap --stream-to=video100.mjpg --stream-count=300 //建议录制该格式的视频文件
+
+
+ffplay -video_size 640x480 -pixel_format yuyv422 -framerate 10 -i video100.yuv  //播放视频
+
+瓦片地图图片bin文件使用方式：
+pip3 install pypng
+pip3 install lz4
+
+python .\LVGLImage.py --ofmt BIN --cf RGB565 -o C:\Users\rd\Desktop C:\Users\rd\Desktop\logo.png

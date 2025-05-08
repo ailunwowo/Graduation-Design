@@ -1,0 +1,105 @@
+#!/bin/sh
+
+# 脚本描述：启动、停止和重启 /root/main 应用程序
+# 放置在 /etc/init.d/S99myapp，Buildroot SysVinit 风格
+
+### BEGIN INIT INFO
+# Provides:          myapp
+# Required-Start:    $local_fs $network
+# Required-Stop:     $local_fs
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start the myapp application
+# Description:       This script starts, stops, and restarts the /root/main application
+### END INIT INFO
+
+# 应用程序路径和名称
+APP_NAME="main"
+APP_PATH="/root/main"
+PID_FILE="/var/run/$APP_NAME.pid"
+LOG_FILE="/var/log/$APP_NAME.log"
+
+# 检查应用程序是否存在
+if [ ! -x "$APP_PATH" ]; then
+    echo "错误：应用程序 $APP_PATH 不存在或不可执行！"
+    exit 1
+fi
+
+# 启动应用程序
+start() {
+    echo "启动 $APP_NAME..."
+    if [ -f "$PID_FILE" ] && kill -0 $(cat "$PID_FILE") 2>/dev/null; then
+        echo "$APP_NAME 已在运行，PID: $(cat $PID_FILE)"
+        return 1
+    fi
+
+    # 启动应用程序并记录日志
+    $APP_PATH >> "$LOG_FILE" 2>&1 &
+    PID=$!
+    if [ $? -eq 0 ]; then
+        echo $PID > "$PID_FILE"
+        echo "$APP_NAME 启动成功，PID: $PID"
+        return 0
+    else
+        echo "错误：无法启动 $APP_NAME！"
+        return 1
+    fi
+}
+
+# 停止应用程序
+stop() {
+    echo "停止 $APP_NAME..."
+    if [ ! -f "$PID_FILE" ] || ! kill -0 $(cat "$PID_FILE") 2>/dev/null; then
+        echo "$APP_NAME 未运行"
+        return 0
+    fi
+
+    # 终止进程
+    kill $(cat "$PID_FILE") 2>/dev/null
+    sleep 1
+    if kill -0 $(cat "$PID_FILE") 2>/dev/null; then
+        echo "警告：$APP_NAME 未完全停止，尝试强制终止..."
+        kill -9 $(cat "$PID_FILE") 2>/dev/null
+    fi
+
+    rm -f "$PID_FILE"
+    echo "$APP_NAME 已停止"
+    return 0
+}
+
+# 检查状态
+status() {
+    if [ -f "$PID_FILE" ] && kill -0 $(cat "$PID_FILE") 2>/dev/null; then
+        echo "$APP_NAME 正在运行，PID: $(cat "$PID_FILE")"
+        return 0
+    else
+        echo "$APP_NAME 未运行"
+        return 1
+    fi
+}
+
+# 主逻辑
+case "$1" in
+    start)
+        start
+        exit $?
+        ;;
+    stop)
+        stop
+        exit $?
+        ;;
+    restart)
+        stop
+        sleep 1
+        start
+        exit $?
+        ;;
+    status)
+        status
+        exit $?
+        ;;
+    *)
+        echo "用法：$0 {start|stop|restart|status}"
+        exit 1
+        ;;
+esac
